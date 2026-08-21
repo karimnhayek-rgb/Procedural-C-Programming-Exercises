@@ -29,4 +29,6 @@ for (int j=0; j<5; ++j){
 printf("%d ",arr[j]);
 }
 printf("]");
+
+free(arr); // Because we dynamically allocated memory on the heap using malloc, we must manually release it using free(arr). Strict C best practice to prevent memory leaks in larger, continuous applications.
 }
