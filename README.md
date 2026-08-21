@@ -1,5 +1,5 @@
 # Procedural-C-Programming-Exercises
-This is a list of functional problems with their solutions coded in C language.
+This is a list of procedural problems with their solutions coded in C language.
 
 ## Control Flow and Functions
 1. Fibonacci sequence: print first N terms
